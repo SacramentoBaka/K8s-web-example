@@ -14,10 +14,11 @@ spec:
     spec:
       containers:
       - name: k8s-web-hello
-        image: sacramentobaka/k8s-web-hello:1.1
+        image: sacramentobaka/k8s-web-hello:1.2
         resources:
           limits:
             memory: "128Mi"
             cpu: "250m"
         ports:
         - containerPort: 3000
+
